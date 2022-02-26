@@ -1,0 +1,47 @@
+html {
+  background-image: url("images/drums.jpeg");
+  /* font-size: 15px; */
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+.keys {
+  padding: 20px;
+  display: flex;
+  flex: 1 0 150px;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.key {
+  width: 8rem;
+  margin: 1rem;
+  padding: 1rem 0rem;
+  border: 0.3rem outset rgb(248, 247, 247);
+  border-radius: 20rem;
+  text-align: center;
+  background: rgb(59, 59, 59);
+  color: aliceblue;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 0.5rem black;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: rgb(96, 231, 255);
+  box-shadow: 0 0 1rem rgb(96, 231, 255);
+}
+kbd {
+  display: block;
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+}
+.sound {
+  font-family: "Rock Salt", cursive;
+  font-size: 0.5rem;
+  letter-spacing: 0.2rem;
+  color: azure;
+}
