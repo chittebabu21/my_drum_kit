@@ -7,18 +7,50 @@ html {
   margin: 0px;
   padding: 0px;
 }
+.instructions {
+  margin: 50px;
+  /* padding: 20px; */
+  text-align: center;
+  font-family: "Shizuru", cursive;
+  font-size: 28px;
+  letter-spacing: 0.4rem;
+  font-weight: 1000;
+  background-image: linear-gradient(
+    to right,
+    white,
+    rgb(252, 126, 126),
+    rgb(253, 187, 43),
+    rgb(250, 159, 159),
+    rgb(77, 76, 76),
+    rgb(77, 75, 75),
+    rgb(255, 230, 0),
+    orange
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: block;
+}
 .keys {
   padding: 20px;
+}
+.keys-1 {
   display: flex;
   flex: 1 0 150px;
   /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
-  min-height: 85vh;
+}
+.keys-2 {
+  display: flex;
+  flex: 1 0 150px;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .key {
-  width: 10rem;
+  width: 6rem;
   margin: 1rem;
   padding: 1rem 0rem;
   border: 0.3rem outset rgb(248, 247, 247);
